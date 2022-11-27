@@ -1,13 +1,118 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* hamburger manu  */
+.animations {
+  animation-name: hamburger;
+  animation-duration: 0.5s;
+  
+}
+.seconds {
+  animation-name: seconds;
+  animation-duration: 0.5s;
+}
+@keyframes hamburger {
+  0% {
+     height: 0px;
+     opacity: 0;
+  }
+
+  100% {
+    /* opacity: 100%; */
+    height: 100%;
+    opacity: 1;
+  }
+}
+@keyframes seconds {
+  0% {
+     height: 100%;
+     opacity: 1;
+  }
+
+  100% {
+    height: 0px;
+    opacity: 0;
+  }
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* table */
+.table-1 {
+  border-collapse: separate; 
+   border-spacing: 0px 15px;
 }
+
+
+.mokle {
+  width:  80%;
+  height: 485px;
+  /* overflow: hidden;
+  overflow: auto; */
+  overflow-y: scroll;
+}
+
+/* second table */
+.tds {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+
+/* media for responsve */
+@media screen and (min-width: 950px) {
+  body {
+    overflow: visible !important;
+  }
+  #mobile-navbar {
+    position: static !important;
+  }
+}
+
+
+.mobile-table-2 {
+  width: 350px !important;
+   /* overflow: hidden; */  
+}
+
+.scrolll {
+  width: 95%;
+  border: 1px solid black;
+  border-right: none;
+  margin: 0 auto;
+  height: 350px;
+  overflow-y: scroll;
+  border-radius: 10px;
+  box-shadow: 10px 10px 20px #3498db ,-10px -10px 20px #3498db;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  border: 1px black solid;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: gray;
+  border-radius: 10px;
+}
+
+
+.heights {
+  height: calc(100% - 80px);
+}
+
+ .edit input {
+  padding: 5px;
+  border-radius: 10px;
+  margin-left: 5px;
+  margin-top: 30px;
+} 
+
+.edit label { 
+  font-size: 20px;
+  margin-top: 30px;
+} 
+
+/* body {
+  background-color: gray;
+}
+ */

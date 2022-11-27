@@ -1,0 +1,142 @@
+[
+{
+"name": "saba",
+"surname": "pachulia",
+"PersonalNumber": 62000002345,
+"id": 1,
+"country": "Georgia",
+"city": "tbilisi",
+  "age": 18,
+  "profesion": "programer"
+},
+{
+ "name": "mamuka",
+ "surname": "gorgodze",
+  "PersonalNumber": 62230002343,
+  "id": 2,
+  "country": "Georgia",
+  "city": "tbilisi",
+    "age": 18,
+    "profesion": "programer"
+ },
+ {
+ "name": "selena",
+"surname": "manjavidze",
+"PersonalNumber": 62000005555,
+"id": 3,
+"country": "Georgia",
+"city": "tbilisi",
+  "age": 18,
+  "profesion": "programer"
+ },
+ {
+"name": "merab",
+"surname": "dvalishvile",
+"PersonalNumber": 62123401234,
+"id": 4,
+"country": "Georgia",
+"city": "tbilisi",
+  "age": 18,
+  "profesion": "programer"
+},     
+{
+"name": "nikoloz",
+ "surname": "basilashvili",
+ "PersonalNumber": 62999992345,
+"id": 5,
+"country": "Georgia",
+"city": "tbilisi",
+  "age": 18,
+  "profesion": "programer"
+  },
+  {
+    "name": "nana",
+   "surname": "aleqsandria",
+   "PersonalNumber": 62334005555,
+   "id": 6,
+   "country": "Georgia",
+   "city": "tbilisi",
+     "age": 18,
+     "profesion": "programer"
+    },
+ {
+"name": "giga",
+ "surname": "chikadze",
+"PersonalNumber": 62333332345,
+"id": 7,
+"country": "Georgia",
+"city": "tbilisi",
+  "age": 18,
+  "profesion": "programer"
+},
+ {
+"name": "xvicha",
+"surname": "kvaracxelia",
+"PersonalNumber": 62110002345,
+"id": 8,
+"country": "Georgia",
+"city": "tbilisi",
+  "age": 18,
+  "profesion": "programer"
+},
+{
+ "name": "shorena",
+ "surname": "begashvili",
+"PersonalNumber": 62000005555,
+"id": 9,
+"country": "Georgia",
+"city": "tbilisi",
+  "age": 18,
+  "profesion": "programer"
+},
+{
+ "name": "nana",
+  "surname": "mandaria",
+ "PersonalNumber": 62000005559,
+  "id": 10,
+  "country": "Georgia",
+  "city": "tbilisi",
+    "age": 18,
+    "profesion": "programer"
+  },
+  {
+"name": "luna",
+  "surname": "qoridze",
+ "PersonalNumber": 62000005551,
+ "id": 11,
+ "country": "Georgia",
+ "city": "tbilisi",
+   "age": 18,
+   "profesion": "programer"
+ },
+ {
+ "name": "merabi",
+ "surname": "nadaraia",
+"PersonalNumber": 63000005551,
+"id": 12,
+"country": "Georgia",
+"city": "tbilisi",
+  "age": 18,
+  "profesion": "programer"
+ },
+ {
+ "name": "shore",
+   "surname": "qoridze",
+  "PersonalNumber": 62040005551,
+   "id": 13,
+   "country": "Georgia",
+   "city": "tbilisi",
+     "age": 18,
+     "profesion": "programer"
+  },
+  {
+    "name": "saba",
+    "surname": "nukradze",
+    "PersonalNumber": 62000002343,
+    "id": 14,
+    "country": "Georgia",
+    "city": "tbilisi",
+      "age": 18,
+      "profesion": "programer"
+    }
+]
